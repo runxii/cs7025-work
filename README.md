@@ -1,9 +1,12 @@
 # Lecture Exercises
 
 This repository is to store exercises from **CS 7025
-programming for digital media**
+programming for digital media**.
++ `Lab1-5` contain labs from the tutorial.
++ `lec1-10` contain exercises from the lectures.
++ Lecture notes are WIP. They will be accessible in each fold as long as finished.
 
-## Lecture 4 DOM
+## Lecture 4 DOM - Read from JSON and display the data
 
 ### Event Listener
 
@@ -16,7 +19,7 @@ programming for digital media**
 document.getElementById("id-of-the-element").addEventListener("click", function (ev) {  })
 ```
 
-## Lecture 5 Switch to Random Pictures
+## Lecture 5 Arrays - Switch to random image
 
 + It will switch to a random pic by clicking at the button.
 + It is realized by a random number, not an array.
