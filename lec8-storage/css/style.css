@@ -1,0 +1,12 @@
+body{
+    font-family: Century Gothic, Arial;
+    background-color:#D2C79CDD;
+}
+
+button {
+    font-family: Arial;
+    font-size: 16px;
+    background-color: #ffffffa3;
+    border-radius: 10px;
+    border: 2px solid #3c1212;
+}
