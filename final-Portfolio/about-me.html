@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>About Me</title>
   <!-- include style sheet file -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- include the fonts that I want, code provided by google fonts: https://fonts.google.com/selection/embed-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,24 +15,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 
   <!-- This will include an icon pic for the website-->
-  <link rel="icon" href="/img/icon/favicon.ico" sizes="any">
-  <link rel="icon" href="/img/icon/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/img/icon/icon.png">
+  <link rel="icon" href="assets/img/icon/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/img/icon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/icon/icon.png">
+
+  <!-- Asynchronously load javascript file. This will load javascript without blocking the load of other elements.-->
+  <script src="assets/js/script.js" async></script>
+  <script src="assets/js/loader.js" async></script>
 
 </head>
 
 <body>
 <!-- Navigation bar -->
-<header>
-  <nav>
-    <ul>
-      <li><a href="homepage.html" class="active">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="about-me.html">About Me</a></li>
-      <li><a href="404.html">Notes</a></li>
-      <li><a href="https://emptdrawr.github.io/">Blog</a></li>
-    </ul>
-  </nav>
+<header id="header">
+  <!-- Header loaded from loader.js -->
 </header>
 
 <div class="pg-w-sidebar">
@@ -48,7 +44,7 @@
     <div class="name-logo">
       <div class="intro-name"><h3>YANG<br>LIU</h3></div>
       <div class="intro-logo">
-        <img src="img/logo1.png" alt="Personal logo">
+        <img src="assets/img/logo1.png" alt="Personal logo">
       </div>
     </div>
 

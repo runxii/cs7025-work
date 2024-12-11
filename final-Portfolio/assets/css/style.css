@@ -35,7 +35,7 @@ h4 {
 
 /* Basic layout, replace pale white background with slight gray white background, improving user experience of reading.*/
 body {
-  background-color: #f8f8f8;
+  background-color: #efece0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +46,7 @@ body {
 header {
   width: 100%;
   padding: 20px 0;
-  background-color: #fff;
+  background-color: #f3f1ea;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -75,7 +75,7 @@ nav ul li a {
 /* Set active navigation item's color */
 nav ul li a:hover,
 nav ul li a.active {
-  background-color: #e5e5e5;
+  background-color: #d1cec9;
   color: #000;
 }
 
@@ -169,6 +169,8 @@ nav ul li a.active {
   align-items: center;
   text-align: center;
   padding: 20px;
+  /* Set a mild shadow for cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* When hovered, card turns into semitransparent*/
@@ -178,7 +180,7 @@ nav ul li a.active {
 
 /* Cards with different background colors */
 .card.gray {
-  background-color: #e5e5e5;
+  background-color: #d1cec9;
 }
 
 .card.transparent {
@@ -230,7 +232,7 @@ nav ul li a.active {
   width: 10px;
   height: 10px;
   margin: 5px;
-  background-color: #ddd;
+  background-color: #d1cec9;
   border-radius: 50%;
 }
 
