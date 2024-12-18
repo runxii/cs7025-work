@@ -1,4 +1,6 @@
 /* The following part is my own code.*/
+/* Import the fonts that I need. From google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 /* Set the title font size and weight included in my project.
    h5 and h6 are not here because they are not in the HTML document.*/
@@ -43,7 +45,7 @@ body {
 }
 
 /* Header with shadow, the line of shadow also serves as the divider between the navigation bar and the main content area. */
-header {
+nav {
   width: 100%;
   padding: 20px 0;
   background-color: #f3f1ea;
@@ -104,7 +106,7 @@ nav ul li a.active {
   padding: 10px;
 }
 
-.intro .self-intro {
+.intro #self-intro {
   text-align: left;
   width: 17%;
   min-width: 200px;
@@ -419,7 +421,7 @@ nav ul li a.active {
   padding: 20px;
 }
 
-/* Project details, including articles, images, titles*/
+/* Project details, including articles, img, titles*/
 
 .article-title {
   text-shadow: 4px 4px 4px #e5e5e5;

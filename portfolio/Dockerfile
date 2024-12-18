@@ -1,10 +1,10 @@
 
-FROM node:lts-alpine
+FROM node:16
 
 # install simple http server for serving static content
 RUN npm install -g http-server
 
-# make the 'app' folder the current working directory
+# make the the folder the current working directory
 WORKDIR /app
 
 # copy both 'package.json' and 'package-lock.json' (if available)
@@ -17,9 +17,9 @@ RUN npm install
 COPY . .
 
 # build app for production with minification
-RUN npm run build
+# RUN npm run build
 
 EXPOSE 8080
-CMD [ "npm", "run", "serve" ]
+CMD [ "npm", "run", "serve","--","--host","0.0.0.0" ]
 # docker build -t portfolio:vue.js .
 # docker run -it -p 8080:8080 portfolio:vue.js
