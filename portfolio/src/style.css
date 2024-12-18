@@ -225,7 +225,7 @@ nav ul li a.active {
 /* Pagination dots */
 .dots {
   text-align: center;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .dot {
@@ -233,7 +233,7 @@ nav ul li a.active {
   vertical-align: middle;
   width: 10px;
   height: 10px;
-  margin: 5px;
+  margin: 10px;
   background-color: #d1cec9;
   border-radius: 50%;
 }
