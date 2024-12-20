@@ -24,11 +24,6 @@ export default{
     },
   },
   computed:{
-    // isInternal(){
-    //   // Decide whether it's an internal vue link or not
-    //   // Do not include https://
-    //   return !/^https?:\/\//.test(this.to);
-    // },
     isExternal(){
       return typeof this.to === 'string' && this.to.startsWith('http')
     }

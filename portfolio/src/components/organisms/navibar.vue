@@ -1,11 +1,9 @@
 <template>
     <nav id="navi-bar">
       <ul>
-        <li class="navi-link"> <AppLink to="/homepage">Homepage</AppLink></li>
-        <li class="navi-link"> <AppLink to="/resume">Resume</AppLink></li>
-        <li class="navi-link"> <AppLink to="/projects">Projects</AppLink></li>
-        <li class="navi-link"> <AppLink to="/notfound">Notes</AppLink></li>
-        <li class="navi-link"><AppLink to="https://emptdrawr.github.io/">Blog</AppLink></li>
+        <li v-for="item in items" :key="item.id" class="navi-link">
+          <AppLink :to="item.address">{{ item.name }}</AppLink>
+        </li>
       </ul>
     </nav>
 </template>
@@ -14,6 +12,13 @@
 import AppLink from "@/components/atoms/link.vue"
 export default {
   name: 'NaviBar',
+  props: {
+    items: {
+      type: Array,
+      required: true,
+      default: () => [], // Ensure an empty array as default
+    },
+  },
   components: {
     AppLink
   }
@@ -42,7 +47,8 @@ nav ul {
   gap: 2em;
 }
 
-nav ul li {
+nav ul li,
+.navi-link a {
   display: flex;
   flex-flow: row wrap;
   text-decoration: none;

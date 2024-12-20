@@ -1,0 +1,76 @@
+{
+  "codingRows": [
+    {
+      "key": "coding-row-1",
+      "cards": [
+        {
+          "title": "",
+          "backgroundClass": "transparent long",
+          "sizeClass": "long",
+          "link": "coding1-adv-defender.html",
+          "image": "assets/img/project1-adv-attack.png",
+          "alt": "Project1: Defending Adversarial Attacks"
+        },
+        {
+          "title": "RSA Encrypted Communication",
+          "backgroundClass": "gray short",
+          "sizeClass": "short",
+          "link": "404.html"
+        }
+      ]
+    },
+    {
+      "key": "coding-row-2",
+      "cards": [
+        {
+          "title": "Project 3",
+          "backgroundClass": "gray short",
+          "sizeClass": "short",
+          "link": "404.html"
+        },
+        {
+          "title": "Project 4",
+          "backgroundClass": "",
+          "sizeClass": "long",
+          "link": "404.html"
+        }
+      ]
+    }
+  ],
+  "visualRows": [
+    {
+      "key": "visual-row-1",
+      "cards": [
+        {
+          "title": "Website Design",
+          "backgroundClass": "",
+          "sizeClass": "long",
+          "link": "https://drive.google.com/file/d/1ITEYhSt1XnTQx6DG7htaXxe9e40QtLMW/view?usp=drive_link"
+        },
+        {
+          "title": "RSA Encrypted Communication",
+          "backgroundClass": "gray short",
+          "sizeClass": "short",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "key": "visual-row-2",
+      "cards": [
+        {
+          "title": "Project 3",
+          "backgroundClass": "gray short",
+          "sizeClass": "short",
+          "link": "404.html"
+        },
+        {
+          "title": "Project 4",
+          "backgroundClass": "gray long",
+          "sizeClass": "long",
+          "link": "404.html"
+        }
+      ]
+    }
+  ]
+}

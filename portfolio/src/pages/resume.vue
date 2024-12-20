@@ -2,11 +2,7 @@
   <h1 style="text-align: center">Resume</h1>
   <div class="pg-w-sidebar">
     <SideBar
-        :items="[
-        { id: 'education', title: 'Education' },
-        { id: 'work', title: 'Work' },
-        { id: 'skills', title: 'Skills' }
-      ]"
+        :items="resumeSidebar"
     />
     <div class="content">
       <!-- Education Section -->
@@ -97,6 +93,11 @@ import Dot from "@/components/atoms/dot.vue"
 import CvDivider from "@/components/modecules/cv-divider.vue";
 import SideBar from "@/components/organisms/sidebar.vue";
 
+import { library } from '@fortawesome/fontawesome-svg-core'; // Core library
+import { faInstitution, faCode, faTools } from '@fortawesome/free-solid-svg-icons'; // Icons for Coding and Visual
+// Add the icons to the library
+library.add(faCode, faInstitution, faTools);
+
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Resume",
@@ -108,6 +109,11 @@ export default {
   data() {
     return {
       resumeData,
+      resumeSidebar:[
+        { id: 'education', title: 'Education', icon: 'institution' },
+        { id: 'work', title: 'Work', icon: 'code' },
+        { id: 'skills', title: 'Skills', icon: 'tools' },
+      ]
     };
   },
 };

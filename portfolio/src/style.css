@@ -138,56 +138,6 @@ html {
   padding: 20px;
 }
 
-.card {
-  width: auto;
-  height: 12em;
-  background-color: #93bb34;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  /* Set a mild shadow for cards */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* When hovered, card turns into semitransparent*/
-.card:hover {
-  opacity: 0.7;
-}
-
-/* Cards with different background colors */
-.card.gray {
-  background-color: #d1cec9;
-}
-
-.card.transparent {
-  background-color: transparent;
-}
-
-.card p {
-  margin-top: 10px;
-  color: #333;
-}
-
-.card h3{
-  margin-top: 0;
-}
-
-.card a{
-  text-decoration: none;
-  color: #333;
-}
-/* Cards with different lengths */
-.card.long {
-  width: 75%;
-}
-
-.card.short {
-  width: 25%;
-}
-
 #homepage-cards {
   display: flex;
   flex-flow: row wrap;
@@ -254,6 +204,7 @@ html {
   align-items: center;
   padding-top: 10px;
   border-right: #e5e5e5 solid 2px;
+  transition:width ease-in-out 0.1s;
 }
 
 .sidebar .dot {
@@ -275,11 +226,12 @@ html {
   text-align: right;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1.5em;
 }
 
 .sidebar ul li {
-  margin-bottom: 1.5em;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 .sidebar ul li a:hover {
@@ -326,6 +278,8 @@ html {
 .project-sec .card.title:hover{
   color: black;
   opacity: 1;
+  transition-delay: 200ms;
+  transition-timing-function: ease-in-out;
 }
 
 /* Images will be adjusted to the size of card automatically,
