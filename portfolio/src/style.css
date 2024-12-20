@@ -42,43 +42,14 @@ body {
   flex-direction: column;
   align-items: center;
   color: #333;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
 }
 
-/* Header with shadow, the line of shadow also serves as the divider between the navigation bar and the main content area. */
-nav {
-  width: 100%;
-  padding: 20px 0;
-  background-color: #f3f1ea;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Navigation bar, set colors*/
-nav ul {
-  list-style: none;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  gap: 2em;
-}
-
-nav ul li {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  padding: 8px 15px;
-  border-radius: 5px;
-}
-
-/* Set active navigation item's color */
-nav ul li a:hover,
-nav ul li a.active {
-  background-color: #d1cec9;
-  color: #000;
+/* Add smooth scrolling to the pages. */
+html {
+  scroll-behavior: smooth;
 }
 
 /* Main intro section */
@@ -98,12 +69,18 @@ nav ul li a.active {
 
 /*Ref: https://developers.google.com/fonts/docs/getting_started
   Set a subtle shadow to make the website more delicate */
-.intro .greetings {
+.intro #greetings {
   text-align: left;
   text-shadow: 4px 4px 4px #e5e5e5;
   width: 73%;
   margin: 1em;
   padding: 10px;
+}
+
+.intro #email {
+  text-align: center;
+  font-size: 1em;
+  color: rgba(131, 128, 126);
 }
 
 .intro #self-intro {
@@ -222,26 +199,6 @@ nav ul li a.active {
   min-width: 200px;
 }
 
-/* Pagination dots */
-.dots {
-  text-align: center;
-  margin: 30px 0;
-}
-
-.dot {
-  display: inline-block;
-  vertical-align: middle;
-  width: 10px;
-  height: 10px;
-  margin: 10px;
-  background-color: #d1cec9;
-  border-radius: 50%;
-}
-
-.dot.active {
-  background-color: #93bb34;
-}
-
 /* Divider */
 
 .divider-line {
@@ -249,7 +206,7 @@ nav ul li a.active {
   vertical-align: middle;
   width: 75%;
   height: 0;
-  border-top: 2px solid #e5e5e5;
+  border-top: 1px solid rgba(159, 140, 120, 0.3);
   text-align: center;
   justify-content: center;
   margin: 2em 0;
@@ -399,27 +356,6 @@ nav ul li a.active {
   background-color: #93bb34;
 }
 
-.pg-w-sidebar {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.pg-w-sidebar .sidebar {
-  width: 20%;
-}
-
-.pg-w-sidebar .sidebar ul {
-  width: 100%;
-  margin-top: 10em;
-  padding: 1em;
-}
-
-.pg-w-sidebar .content {
-  width: 80%;
-  padding: 20px;
-}
 
 /* Project details, including articles, img, titles*/
 
@@ -437,41 +373,5 @@ nav ul li a.active {
   width: 100%;
   height: auto;
   margin-top: 1em;
-}
-
-/* About Me CV parts*/
-.cv {
-  display: flex;
-  padding: 10px;
-  margin: 10px;
-}
-
-.cv .cv-title {
-  width: 75%;
-  text-align: left;
-  font-weight: bold;
-  font-size: 1.5em;
-  color: #93bb34;
-}
-
-.cv .cv-period {
-  width: 25%;
-  text-align: right;
-  color: gray;
-  font-style: italic;
-}
-
-.cv-entry {
-  padding: 10px;
-  margin: 10px;
-}
-
-.cv-entry p {
-  text-align: justify;
-}
-
-.cv-entry ul {
-  text-align: left;
-  list-style: none;
 }
 

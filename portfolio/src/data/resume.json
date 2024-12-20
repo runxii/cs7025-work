@@ -1,0 +1,75 @@
+{
+  "education": [
+    {
+      "degree": "Master of Science in Interactive Digital Media (Expected Grade 1:1)",
+      "location": "Dublin, Ireland",
+      "institution": "Trinity College Dublin",
+      "dates": "Sep 2024 -- Present",
+      "details": [
+        "Key Modules: Visual Computing, Game Design, Website Development, Sensor Technology"
+      ]
+    },
+    {
+      "degree": "Bachelor of Engineering in Information Security (Grade 2:1)",
+      "location": "Tianjin, China",
+      "institution": "Nankai University",
+      "dates": "Sep 2020 -- Jul 2024",
+      "details": [
+        "Key Modules: Data Structures, Algorithms, Object-Oriented Programming, Software Engineering, Database Systems"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Python Fake News Program",
+      "tech": "Python, NLP, Data Analysis, Linear Programming",
+      "dates": "Apr 2021 -- Jun 2021",
+      "details": [
+        "Built a neural network using BERT-base for fake news detection, achieving 87% accuracy in authenticity prediction."
+      ]
+    },
+    {
+      "title": "Communication Software with Custom Protocols",
+      "tech": "C++, Sockets, Internet Protocols",
+      "dates": "Oct 2022 -- Dec 2022",
+      "details": [
+        "Developed multi-threaded communication software using sockets for multimedia message transfer, with built-in fault tolerance and scalability."
+      ]
+    },
+    {
+      "title": "Redesign of the College English Test Website",
+      "tech": "MVC Framework, API Testing, Team Work",
+      "dates": "Mar 2023 -- May 2023",
+      "details": [
+        "Built a scalable webpage, resolving compatibility issues for mobile phones and enhancing user access.",
+        "Created a refined version of a large-scale website using the MVC framework, ensuring data consistency and usability through API testing."
+      ]
+    }
+  ],
+  "work": [
+    {
+      "title": "Frontend Developer Intern",
+      "dates": "Jul 2023 -- Oct 2023",
+      "company": "Suzhou Yunti Technology Co., Ltd.",
+      "location": "Remote",
+      "details": [
+        "Collaborated with cross-functional teams to ensure code quality and meet user needs, addressing UI design issues and improving user experience.",
+        "Created a refined version of a large-scale website using the MVC framework, ensuring data consistency and usability through API testing."
+      ]
+    },
+    {
+      "title": "Network Security Intern",
+      "dates": "Jul 2022 -- Aug 2022",
+      "company": "360 Total Security",
+      "location": "Remote",
+      "details": [
+        "Demonstrated practical skills in penetration testing, handling SQL injection vulnerabilities, and securing distributed networks, using Kali Linux for network vulnerability analysis.",
+        "Applied algorithmic thinking in analyzing security breaches and implementing protection measures."
+        ]
+      }
+    ],
+  "skills":  {
+    "languages": "C++, Python, JavaScript, HTML, CSS, SQL, Assembly Language",
+    "tools": "IDEA, Visual Studio Code, Anaconda, Git, GitLab"
+  }
+}

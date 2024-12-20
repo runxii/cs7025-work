@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import DotItem from "@/atoms/dot.vue";
+import DotItem from "@/components/atoms/dot.vue";
 
 export default {
   name: "DotsDivider",
@@ -28,3 +28,11 @@ export default {
   },
 };
 </script>
+
+<style>
+/* Pagination dots */
+.dots {
+  text-align: center;
+  margin: 30px 0;
+}
+</style>
